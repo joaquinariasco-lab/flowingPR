@@ -1,0 +1,41 @@
+{
+  "name": "flowingPR",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A Probot app",
+  "author": "Arias Joaquin",
+  "license": "ISC",
+  "homepage": "https://github.com//",
+  "keywords": [
+    "probot",
+    "github",
+    "probot-app"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "start": "probot run ./lib/index.js",
+    "test": "vitest"
+  },
+  "dependencies": {
+    "dotenv": "^17.4.2",
+    "execa": "^9.6.1",
+    "openai": "^6.39.0",
+    "probot": "^14.3.2",
+    "simple-git": "^3.36.0"
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.0",
+    "ioredis": "^5.10.1",
+    "nock": "^14.0.5",
+    "smee-client": "^5.0.0",
+    "typescript": "^6.0.3",
+    "vitest": "^3.2.4"
+  },
+  "overrides": {
+    "@types/pg": "8.15.1"
+  },
+  "engines": {
+    "node": "^20.18.1 || >= 22"
+  },
+  "type": "module"
+}
