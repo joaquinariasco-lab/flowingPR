@@ -1,5 +1,5 @@
 import { Probot } from "probot";
-import { handlePR } from "./github/pr-handler";
+import { handlePR } from "./github/pr-handler.js";
 
 export default (app: Probot) => {
 

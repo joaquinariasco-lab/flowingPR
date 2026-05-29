@@ -34,3 +34,4 @@ For more, check out the [Contributing Guide](CONTRIBUTING.md).
 hello bot
 hello bot
 test bot
+another test

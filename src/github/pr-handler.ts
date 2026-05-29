@@ -1,5 +1,5 @@
-import { calculateRisk } from "../security/risk-engine";
-import { sanitizeDiff } from "../security/sanitizer";
+import { calculateRisk } from "../security/risk-engine.js";
+import { sanitizeDiff } from "../security/sanitizer.js";
 
 export async function handlePR(context: any) {
 
